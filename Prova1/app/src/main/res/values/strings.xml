@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prova 1</string>
+    <string name="lista">Veículos</string>
+    <string name="veiculo">Prencha o valor do veículo</string>
+    <string name="valor">R$</string>
+    <string name="calculo">Calcular</string>
+    <string name="ipva">Valor a ser pago no IPVA</string>
+</resources>

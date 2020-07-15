@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_centerInParent="true"
+            android:layout_width="414dp"
+            android:layout_height="471dp"
+            android:src="@drawable/oval"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="66sp"
+            android:textColor="#4d4d4d"
+            tools:text="Kino"
+            android:fontFamily="@font/montserrat"
+            android:layout_centerInParent="true"
+            android:id="@+id/kino"
+            />
+
+        <TextView
+            android:layout_below="@+id/kino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:textSize="15sp"
+            android:textColor="#4c475a"
+            tools:text="Do shopping in one minute"
+            android:layout_centerInParent="true"
+            />
+
+
+
+
+</RelativeLayout>

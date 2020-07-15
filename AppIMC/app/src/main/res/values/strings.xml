@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="altura">Altura</string>
+    <string name="peso">Peso</string>
+    <string name="calculo">Calcular IMC</string>
+    <string name="resultado"></string>
+    <string name="muitoabaixo">Situação: Muito abaixo do peso</string>
+    <string name="abaixo">Situação: Abaixo do peso</string>
+    <string name="normal">Situação: Peso normal</string>
+    <string name="acima">Situação: Acima do peso</string>
+    <string name="obesidadeI">Situação: Obesidade I</string>
+    <string name="obesidadeII">Situação: Obesidade II (severa)</string>
+    <string name="obesidadeIII">Situação: Obesidade III (mórbida)</string>
+    <string name="informepeso">Informe seu peso</string>
+</resources>

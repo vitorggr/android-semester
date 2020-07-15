@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UI.Activities.CategoriesActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/drinksplash"
+        android:cropToPadding="true"
+        android:alpha="0.3"
+        android:scaleType="centerCrop"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="600dp">
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Ordinary Drink"
+            android:id="@+id/ordinary"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/gradient"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:id="@+id/cocktail"
+            android:layout_below="@+id/ordinary"
+            android:text="Cocktail"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/gradient"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Shakes"
+            android:id="@+id/shake"
+            android:layout_below="@+id/cocktail"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/gradient"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Shot"
+            android:id="@+id/shot"
+            android:layout_below="@+id/shake"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/gradient"
+            android:textAllCaps="false"></Button>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Beer"
+            android:id="@+id/beer"
+            android:layout_below="@+id/shot"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/gradient"
+            android:textAllCaps="false"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:text="Soft Drink"
+            android:id="@+id/soft"
+            android:layout_below="@+id/beer"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/gradient"
+            android:textAllCaps="false"></Button>
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

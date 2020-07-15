@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Exemplo Duas Listas</string>
+    <string name="list1">Jogadores</string>
+    <string name="list2">Times</string>
+</resources>

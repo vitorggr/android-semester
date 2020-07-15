@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.Activities.HomeActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:alpha="0.3"></ImageView>
+
+        <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:fillViewport="true">
+
+
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/lista"
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/lista"
+        android:fontFamily="@font/opensansregular"
+        android:hint="Search Drink By Name"></EditText>
+
+    <Button
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lista_drinks_name"
+        android:layout_marginHorizontal="20dp"
+        android:text="List By Name"
+        android:background="@drawable/gradient"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/opensansregular"
+        android:textAllCaps="false"></Button>
+
+    <EditText
+        android:id="@+id/ingredient"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_below="@id/lista_drinks_name"
+        android:fontFamily="@font/opensansregular"
+        android:hint="Search Drink By Ingredient"></EditText>
+
+    <Button
+        android:layout_below="@+id/ingredient"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/lista_ingredientes"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/gradient"
+        android:text="List By Ingredient"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/opensansregular"
+        android:textAllCaps="false"></Button>
+
+
+
+            <Button
+                android:layout_below="@+id/lista_ingredientes"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="50dp"
+                android:id="@+id/list_categorias"
+                android:fontFamily="@font/opensansregular"
+                android:layout_marginHorizontal="20dp"
+                android:text="Search By Categories"
+                android:background="@drawable/gradient"
+                android:textAllCaps="false"></Button>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="35dp"
+                android:id="@+id/logout"
+                android:layout_below="@id/list_categorias"
+                android:layout_marginHorizontal="20dp"
+                android:text="Logout"
+                android:fontFamily="@font/opensansregular"
+                android:background="@drawable/gradientred"
+                android:textAllCaps="false"></Button>
+
+
+
+
+
+
+
+    </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</RelativeLayout>

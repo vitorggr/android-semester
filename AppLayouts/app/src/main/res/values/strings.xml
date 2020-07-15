@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">RelativeLayout</string>
+    <string name="botao">Botão</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+ullamcorper tempus congue. Nullam ut felis diam. Fusce iaculis
+dignissim euismod. Suspendisse sem erat, finibus eu viverra
+pharetra, condimentum sit amet quam. Ut mollis rhoncus
+condimentum. Duis eros neque, tincidunt quis mauris non,
+finibus dapibus massa. Vestibulum iaculis eros eget pharetra
+        hendrerit.</string>
+    <string name="ipsum">Ut sed scelerisque ex. Vestibulum diam enim, dictum eu elit
+quis, fringilla posuere ligula. Donec erat erat, consequat vel
+libero nec, pulvinar dignissim sapien. Suspendisse semper
+rutrum semper. Integer at facilisis nunc. Ut vitae consequat mi,
+sed ornare turpis. Mauris vitae enim eget diam maximus
+vulputate vitae vel elit. Curabitur semper eu magna sit amet
+efficitur. Duis tincidunt non nisi vel sollicitudin. Pellentesque at
+augue elit. Integer hendrerit dui mauris, id eleifend mi dictum id.
+Curabitur interdum quam eros, sit amet semper augue
+elementum eu. Cras arcu enim, tincidunt imperdiet pretium
+eget, sagittis vel nulla. Nam dui justo, suscipit ac felis at,
+        ullamcorper mollis ex. Donec eu luctus arcu.</string>
+
+    <string name="dorime">
+Ut sed scelerisque ex. Vestibulum diam enim, dictum eu elit
+quis, fringilla posuere ligula. Donec erat erat, consequat vel
+libero nec, pulvinar dignissim sapien. Suspendisse semper</string>
+
+    <string name="ameno">
+        Ut sed scelerisque ex. Vestibulum diam enim, dictum eu elit
+quis, fringilla posuere ligula. Donec erat erat, consequat vel
+libero nec, pulvinar dignissim sapien. Suspendisse semper
+rutrum semper. Integer at facilisis nunc. Ut vitae consequat mi,
+sed ornare turpis. Mauris vitae enim eget diam maximus
+vulputate vitae vel elit. Curabitur semper eu magna sit amet
+efficitur. Duis tincidunt non nisBi voel sollicitudin. Pellente...
+    </string>
+
+</resources>
+
+

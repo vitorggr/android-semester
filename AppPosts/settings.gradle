@@ -1,0 +1,2 @@
+rootProject.name='preProva2'
+include ':app'

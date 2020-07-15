@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingTop="100dp"
+        android:layout_gravity="center_vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+        android:textSize="20dp"
+
+    android:text="@string/veiculo"></TextView>
+
+    <EditText
+        android:id="@+id/valor"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="20dp"
+        android:hint="@string/valor"
+        ></EditText>
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/gradient"
+        android:id="@+id/calcular"
+        android:layout_marginHorizontal="20dp"
+        android:text="@string/calculo"
+        android:layout_marginBottom="50dp"
+        android:textAllCaps="false"></Button>
+
+
+
+
+
+</LinearLayout>
